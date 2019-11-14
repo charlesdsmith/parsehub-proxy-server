@@ -1,7 +1,5 @@
 # flask API
-from flask import Flask, redirect, url_for, request, jsonify, make_response
-from datetime import datetime as dt
-import json
+from flask import Flask, make_response
 import requests
 
 app = Flask(__name__)
