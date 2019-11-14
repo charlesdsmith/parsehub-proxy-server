@@ -1,4 +1,4 @@
-# parsehub-proxy-server - Python
+# parsehub-proxy-server - Python3
 
 # Install Flask
 `pip install flask`
