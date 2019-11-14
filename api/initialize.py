@@ -27,9 +27,6 @@ def create_app():
     app.config.from_object(Config)
 
     with app.app_context():
-        print("MAPS",app.url_map)
-        # Create tables for our models
-        db.create_all()
         app.run()
         return app
 
