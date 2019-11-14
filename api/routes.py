@@ -10,7 +10,6 @@ app = Flask(__name__)
 def handle(url):
 	try:
 		if request.method == "POST":
-			print("REQUEST DATA", request.form.to_dict())
 
 			headers = {
 			"User-Agent": request.headers["user-agent"]
@@ -20,8 +19,7 @@ def handle(url):
 
 			try:
 				response = requests.post(url, headers=headers, data=data)
-				print("RESPONSE TEXT", response)
-				return (response.content, response.status_code)
+				return (response.content, response.status_code) # make sure to return relevant info from end-server
 				
 			except Exception as e:
 				return make_response(e)
