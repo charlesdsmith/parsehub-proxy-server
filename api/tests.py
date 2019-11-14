@@ -1,12 +1,6 @@
-import os
 import unittest
 import requests
 from routes import app
-from initialize import db
-import json
-import uuid
-
-basedir = os.path.abspath(os.path.dirname(__file__))
 
 
 class TestCase(unittest.TestCase): 
