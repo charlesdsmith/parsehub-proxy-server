@@ -1,5 +1,5 @@
 # flask API
-from flask import Flask, make_response
+from flask import Flask, make_response, request, Response
 import requests
 
 app = Flask(__name__)
@@ -35,4 +35,4 @@ def handle(url):
 
 
 	except Exception as e:
-		return make_response("The following error occurred: %s" % e)
+		return Response(status=500)
