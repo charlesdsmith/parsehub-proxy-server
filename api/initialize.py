@@ -10,7 +10,10 @@ def create_app():
     """Construct the core application."""
 
     with app.app_context():
+<<<<<<< HEAD
         # Create tables for our models
+=======
+>>>>>>> b3c92a8c1eb52e30ef325ba9c16da644339bd9bb
         app.run()
         return app
 
