@@ -10,4 +10,4 @@
 
 
 Please let me know if you have any questions! 
-Thank you for the oppurtunity
+Thank you for the opportunity
