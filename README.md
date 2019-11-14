@@ -1,7 +1,7 @@
 # parsehub-proxy-server
 
 # Install Flask
-'pip install flask'
+`pip install flask`
 
 # Run tests with python unittest
 1. Run api/initalize.py (will open server at http://127.0.0.1:5000/)
